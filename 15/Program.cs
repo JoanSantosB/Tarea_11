@@ -8,17 +8,17 @@ namespace _15
 {
     internal class Program
     {
-        static bool EsPar(int a)
+        static bool EsPar(int n)
         {
             bool resultado=false;
-            if (a % 2 == 0)
+            if (n % 2 == 0)
             {
-                Console.WriteLine($"{a} es un número par");
+                Console.WriteLine($"{n} es un número par");
                 resultado = true;
             }
             else
             {
-                Console.WriteLine($"{a} es un número impar");
+                Console.WriteLine($"{n} es un número impar");
                 resultado = false;
             }
             return resultado;
