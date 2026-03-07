@@ -8,11 +8,10 @@ namespace _7
 {
     internal class Program
     {
-        static int MostrarDoble(int n)
+        static void MostrarDoble(int n)
         {
             int resultado = n * 2;
             Console.WriteLine($"El doble es: {resultado}");
-            return resultado;
         }
         static void Main(string[] args)
         {
