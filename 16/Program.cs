@@ -18,13 +18,16 @@ namespace _16
             }
             else
             {
-                Console.WriteLine($"{n} es negatido");
+                Console.WriteLine($"{n} es negativo");
                 resultado = false;
             }
-
+            return resultado;
         }
         static void Main(string[] args)
         {
+            Console.Write("Ingrese un número: ");
+            int number=int.Parse(Console.ReadLine());
+            Espositivo(number);
         }
     }
 }
