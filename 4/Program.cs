@@ -15,6 +15,7 @@ namespace _4
         static void Main(string[] args)
         {
             Linea();
+
         }
     }
 }
