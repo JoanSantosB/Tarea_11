@@ -8,11 +8,10 @@ namespace _8
 {
     internal class Program
     {
-        static int MostrarCuadrado(int n)
+        static void MostrarCuadrado(int n)
         {
             int resultado = n*n;
             Console.WriteLine($"El cuadrado del número es: {resultado}");
-            return resultado;
         }
         static void Main(string[] args)
         {
